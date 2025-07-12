@@ -7,7 +7,7 @@ module.exports = [
       target: process.env.TUTOR_PAL_URL,
       changeOrigin: true,
       pathRewrite: {
-        "^/tutor-pal": "/tutor-pal",
+        "^/tutor-pal": "",
       },
     }),
   },
